@@ -1,0 +1,32 @@
+=== Отчёт по логу /var/log/syslog ===
+Создан: 2026-10-24 00:11:18
+
+Ключевое слово 'error': 8 совпадений
+Ключевое слово 'fail': 35 совпадений
+Ключевое слово 'denied': 0 совпадений
+Ключевое слово 'warning': 9 совпадений
+
+=== Последние найденные события (до 20 строк) ===
+Oct 18 18:41:33 sysadmin-host cloud-init[1550]: W: Some index files failed to download. They have been ignored, or old ones used instead.
+Oct 18 18:41:34 sysadmin-host cloud-init[1550]: Failed to write to /dev/console
+Oct 18 18:41:34 sysadmin-host cloud-init[1550]: Failed to write to /dev/console
+Oct 18 18:41:34 sysadmin-host cloud-init[1550]: Failed to write to /dev/console
+Oct 18 18:41:34 sysadmin-host cloud-init[1550]: Failed to write to /dev/console
+Oct 18 18:41:34 sysadmin-host cloud-init[1550]: Failed to write to /dev/console
+Oct 18 18:41:34 sysadmin-host cloud-init[1550]: Failed to write to /dev/console
+Oct 18 18:41:34 sysadmin-host cloud-init[1550]: Failed to write to /dev/console
+Oct 18 18:41:34 sysadmin-host cloud-init[1550]: Failed to write to /dev/console
+Oct 18 20:26:47 sysadmin-host systemd-resolved[624]: Failed to create graveyard IO source: Stale file handle
+Oct 18 20:26:47 sysadmin-host systemd-resolved[624]: message repeated 3 times: [ Failed to create graveyard IO source: Stale file handle]
+Oct 22 12:14:12 sysadmin-host python3[4386]: ["2026-10-22T15:14:12.382", "WARNING", "ubuntupro.apt", "fail", 985, "Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-security/InRelease", {}]
+Oct 22 12:14:12 sysadmin-host python3[4386]: ["2026-10-22T15:14:12.384", "WARNING", "ubuntupro.apt", "fail", 985, "Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-updates/InRelease", {}]
+Oct 22 12:14:13 sysadmin-host python3[4386]: ["2026-10-22T15:14:13.385", "WARNING", "ubuntupro.apt", "fail", 985, "Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-security/InRelease", {}]
+Oct 22 12:14:13 sysadmin-host python3[4386]: ["2026-10-22T15:14:13.387", "WARNING", "ubuntupro.apt", "fail", 985, "Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-updates/InRelease", {}]
+Oct 22 12:14:15 sysadmin-host python3[4386]: ["2026-10-22T15:14:15.387", "WARNING", "ubuntupro.apt", "fail", 985, "Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-security/InRelease", {}]
+Oct 22 12:14:15 sysadmin-host python3[4386]: ["2026-10-22T15:14:15.389", "WARNING", "ubuntupro.apt", "fail", 985, "Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-updates/InRelease", {}]
+Oct 22 12:14:20 sysadmin-host python3[4386]: ["2026-10-22T15:14:20.459", "WARNING", "ubuntupro.apt", "fail", 985, "Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-security/InRelease", {}]
+Oct 22 12:14:20 sysadmin-host python3[4386]: ["2026-10-22T15:14:20.460", "WARNING", "ubuntupro.apt", "fail", 985, "Failed to fetch ESM Apt Cache item: https://esm.ubuntu.com/apps/ubuntu/dists/jammy-apps-updates/InRelease", {}]
+Oct 23 21:11:18 sysadmin-host ubuntu: тестовое событие error для сборщика логов
+
+--- запуск с несуществующим файлом ---
+Ошибка: файл /no/such/file не найден.
